@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="./Main.css">
     
 </head>
-    <h1>Comparando Números</h1>
+    <h1>Coloque o numero B maior que A</h1>
 <body>
     <form id ='coparandoNumeros'>
         <label>
-            Campo A:
+            Campo <b>A</b>:
             <input type="number" id = 'campoA' required>
         </label>
         <label>
-            Campo B:
+            Campo <b>B</b>:
             <input type="number" id = 'campoB' required>
         </label>
         <button type = 'submit'>Calcular</button>
     </form>
+
+    <div id="successMessage" class="message success">
+        Parabéns B e mais o A.
+    </div>
+
+    <div id="errorMessage" class="message error">
+        Tente novamente lembre que B tem que ser maior que A
+    </div>
 
     <script src="./main.js"></script>
 </body>
