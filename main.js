@@ -1,4 +1,4 @@
-document.getElementById('comparisonForm').addEventListener('submit', function(event) {
+document.getElementById('coparandoNumeros').addEventListener('submit', function(event) {
     event.preventDefault(); // Impede o envio do formulário
     
     // Obtém os valores dos campos
